@@ -1,10 +1,8 @@
-triton
-======
+#triton
 
 An arithmetic expression parser written in Scala and based on parser combinators
 
-status
-======
+##status
 Triton creates an AST of the expression. The following grammar is parsed:
 
 ```
@@ -23,8 +21,7 @@ func := "(" (farg (", " farg)*)? ")"
 farg := expr
 ```
 
-example
-======
+##example
 After running test.scala, type an expression to get its AST:
 
 e.g after typing and pressing ENTER
